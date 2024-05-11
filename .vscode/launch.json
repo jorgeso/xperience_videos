@@ -8,6 +8,18 @@
       "request": "launch",
       "preLaunchTask": "npm: start",
       "url": "http://localhost:4200/"
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Launch Program",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/src/server/index.js",
+      "env": {
+        "CONN_STR": "DefaultEndpointsProtocol=https;AccountName=xperiencestore;AccountKey=Dhmi9rKe2xlRmNHh/yFkTZnJPJyCR2YDHVsHEVc8jVqd0fiPYLfd4RhfqSb2TUZtrwav3OXAm8yG+ASt2R/qcQ==;EndpointSuffix=core.windows.net"
+      }
     }
   ]
 }

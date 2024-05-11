@@ -1,3 +1,5 @@
 {
-    "typescript.tsdk": "node_modules\\typescript\\lib"
+    "typescript.tsdk": "node_modules\\typescript\\lib",
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/34461d32-a50d-4af3-b62f-80d636ebe124/resourceGroups/xperience/providers/Microsoft.Web/sites/xperience-vbc-videos",
+    "appService.deploySubpath": "."
 }
